@@ -1,0 +1,9 @@
+﻿"Category"," (from)"," (to)"," (weight)"
+"highcharts-saoiw5g-318","PV Production","Building Consumption",59258330
+"highcharts-saoiw5g-319","PV Production","Grid Export",30736
+"highcharts-saoiw5g-320","PV Production","Storage Charge",0
+"highcharts-saoiw5g-321","PV Production","EV Charge",
+"highcharts-saoiw5g-322","Grid Import","Building Consumption",314617600
+"highcharts-saoiw5g-323","Grid Import","Storage Charge",0
+"highcharts-saoiw5g-324","Storage Discharge","Building Consumption",0
+"highcharts-saoiw5g-325","Storage Discharge","Grid Export",0
