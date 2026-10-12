@@ -7,8 +7,8 @@ let energyFilter={mode:'day',start:'2026-09-01',end:'2026-09-01',from:6,to:18},f
 const mainSections=[0,1,3,5];
 const sectionLabels=[['Overview','ภาพรวม'],['Energy','พลังงาน'],['Inverters','อินเวอร์เตอร์'],['Data','ข้อมูล']];
 
-// Number labels remain unset until the site-to-feeder mapping is confirmed.
-const feederLabels={large:'ชุด 3,000 kVA',small:'ชุด 500 kVA'};
+// User-confirmed mapping: 3,000 kVA = Feeder 9; 500 kVA = Feeder 10.
+const feederLabels={large:'Feeder 9 · 3,000 kVA',small:'Feeder 10 · 500 kVA'};
 let activeFeeder='large';
 const feederCache={large:D,small:structuredClone(SMALL_FEEDER_DATA)};
 try{const saved=JSON.parse(localStorage.getItem('sta-daily-small'));if(saved?.hourly)feederCache.small.hourly=saved.hourly}catch(e){}
@@ -19,7 +19,7 @@ function selectFeeder(key){
  energyFilter=feederFilters.get(key)||{mode:'day',start:D.hourly[0].timestamp.slice(0,10),end:D.hourly[0].timestamp.slice(0,10),from:6,to:18};
  local=Boolean(localStorage.getItem(key==='large'?'sta-daily':'sta-daily-small'));pending=null;page=0;inverterChoice='';inverterCompare='';compareA='';compareB='';filterError='';populateDates();render();
 }
-function feederToolbar(){return `<div class="feeder-toolbar"><label for="feeder-choice">ชุดข้อมูล</label><select id="feeder-choice" onchange="selectFeeder(this.value)">${Object.keys(feederLabels).map(k=>`<option value="${k}" ${k===activeFeeder?'selected':''}>${feederLabels[k]}</option>`).join('')}</select><span>${D.estimated?'ค่าประมาณจากกำลังทุก 15 นาที':'ยอดรายงานมิเตอร์'} · กันยายน 2569</span></div>`}
+function feederToolbar(){return `<div class="feeder-toolbar"><label for="feeder-choice">เลือก Feeder</label><select id="feeder-choice" onchange="selectFeeder(this.value)">${Object.keys(feederLabels).map(k=>`<option value="${k}" ${k===activeFeeder?'selected':''}>${feederLabels[k]}</option>`).join('')}</select><span>${D.estimated?'ค่าประมาณจากกำลังทุก 15 นาที':'ยอดรายงานมิเตอร์'} · กันยายน 2569</span></div>`}
 function metricCard(label,value,unit,color=palette.load,detail=''){
  return `<article class="card" style="--accent:${color}"><small>${escape(label)}</small><b style="color:${color}">${value}</b><span>${escape(unit)}</span>${detail?`<p>${escape(detail)}</p>`:''}</article>`;
 }
@@ -149,3 +149,5 @@ render();
 let resizeTimer,lastWidth=innerWidth;addEventListener('resize',()=>{if(innerWidth===lastWidth)return;lastWidth=innerWidth;clearTimeout(resizeTimer);resizeTimer=setTimeout(render,150)});
 
 render();
+
+resetLocal=function(){const key=activeFeeder==='large'?'sta-daily':'sta-daily-small';localStorage.removeItem(key);D=structuredClone(activeFeeder==='large'?base:SMALL_FEEDER_DATA);feederCache[activeFeeder]=D;local=false;inverterChoice='';inverterCompare='';populateDates();render()};
