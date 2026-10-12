@@ -13573,246 +13573,366 @@
   "hours": {
     "large": {
       "2026-09-01": {
-        "hours": 11.75,
-        "samples": 96
+        "hours": 9.927083333333334,
+        "total": 238.25,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-02": {
-        "hours": 12.0,
-        "samples": 96
+        "hours": 10.5,
+        "total": 252.0,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-03": {
-        "hours": 12.0,
-        "samples": 96
+        "hours": 10.375,
+        "total": 249.0,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-04": {
-        "hours": 12.0,
-        "samples": 96
+        "hours": 0.09375,
+        "total": 2.25,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-05": {
-        "hours": 12.0,
-        "samples": 96
+        "hours": 10.510416666666666,
+        "total": 252.25,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-06": {
-        "hours": 12.0,
-        "samples": 96
+        "hours": 8.28125,
+        "total": 198.75,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-07": {
-        "hours": 12.25,
-        "samples": 96
+        "hours": 10.510416666666666,
+        "total": 252.25,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-08": {
-        "hours": 12.0,
-        "samples": 96
+        "hours": 10.34375,
+        "total": 248.25,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-09": {
-        "hours": 12.0,
-        "samples": 96
+        "hours": 10.010416666666666,
+        "total": 240.25,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-10": {
-        "hours": 11.75,
-        "samples": 96
+        "hours": 8.416666666666666,
+        "total": 202.0,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-11": {
-        "hours": 12.0,
-        "samples": 96
+        "hours": 2.5625,
+        "total": 61.5,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-12": {
-        "hours": 12.0,
-        "samples": 96
+        "hours": 9.166666666666666,
+        "total": 220.0,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-13": {
-        "hours": 12.0,
-        "samples": 96
+        "hours": 9.96875,
+        "total": 239.25,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-14": {
-        "hours": 11.0,
-        "samples": 96
+        "hours": 9.010416666666666,
+        "total": 216.25,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-15": {
-        "hours": 12.0,
-        "samples": 96
+        "hours": 8.541666666666666,
+        "total": 205.0,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-16": {
-        "hours": 11.75,
-        "samples": 96
+        "hours": 7.989583333333333,
+        "total": 191.75,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-17": {
-        "hours": 11.75,
-        "samples": 96
+        "hours": 9.458333333333334,
+        "total": 227.0,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-18": {
-        "hours": 12.25,
-        "samples": 96
+        "hours": 0.07291666666666667,
+        "total": 1.75,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-19": {
-        "hours": 11.25,
-        "samples": 96
+        "hours": 8.677083333333334,
+        "total": 208.25,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-20": {
-        "hours": 11.75,
-        "samples": 96
+        "hours": 7.166666666666667,
+        "total": 172.0,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-21": {
-        "hours": 11.75,
-        "samples": 96
+        "hours": 8.166666666666666,
+        "total": 196.0,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-22": {
-        "hours": 11.75,
-        "samples": 96
+        "hours": 10.229166666666666,
+        "total": 245.5,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-23": {
-        "hours": 11.75,
-        "samples": 96
+        "hours": 9.625,
+        "total": 231.0,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-24": {
-        "hours": 10.75,
-        "samples": 96
+        "hours": 9.25,
+        "total": 222.0,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-25": {
-        "hours": 11.25,
-        "samples": 96
+        "hours": 0.052083333333333336,
+        "total": 1.25,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-26": {
-        "hours": 11.5,
-        "samples": 96
+        "hours": 9.0,
+        "total": 216.0,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-27": {
-        "hours": 11.75,
-        "samples": 96
+        "hours": 9.25,
+        "total": 222.0,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-28": {
-        "hours": 11.25,
-        "samples": 96
+        "hours": 7.510416666666667,
+        "total": 180.25,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-29": {
-        "hours": 11.5,
-        "samples": 96
+        "hours": 9.947916666666666,
+        "total": 238.75,
+        "inverters": 24,
+        "samples": 24
       },
       "2026-09-30": {
-        "hours": 11.75,
-        "samples": 96
+        "hours": 10.229166666666666,
+        "total": 245.5,
+        "inverters": 24,
+        "samples": 24
       }
     },
     "small": {
       "2026-09-01": {
-        "hours": 11.5,
-        "samples": 96
+        "hours": 10.25,
+        "total": 41.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-02": {
-        "hours": 12.0,
-        "samples": 96
+        "hours": 10.5,
+        "total": 42.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-03": {
-        "hours": 11.75,
-        "samples": 96
+        "hours": 10.75,
+        "total": 43.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-04": {
-        "hours": 11.5,
-        "samples": 96
+        "hours": 6.625,
+        "total": 26.5,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-05": {
-        "hours": 12.0,
-        "samples": 96
+        "hours": 10.75,
+        "total": 43.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-06": {
-        "hours": 11.75,
-        "samples": 96
+        "hours": 9.75,
+        "total": 39.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-07": {
-        "hours": 11.75,
-        "samples": 96
+        "hours": 10.75,
+        "total": 43.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-08": {
-        "hours": 11.75,
-        "samples": 96
+        "hours": 10.5,
+        "total": 42.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-09": {
-        "hours": 11.5,
-        "samples": 96
+        "hours": 10.25,
+        "total": 41.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-10": {
-        "hours": 11.5,
-        "samples": 96
+        "hours": 8.75,
+        "total": 35.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-11": {
-        "hours": 11.75,
-        "samples": 96
+        "hours": 10.0,
+        "total": 40.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-12": {
-        "hours": 11.5,
-        "samples": 96
+        "hours": 9.4375,
+        "total": 37.75,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-13": {
-        "hours": 11.75,
-        "samples": 96
+        "hours": 10.0,
+        "total": 40.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-14": {
-        "hours": 10.5,
-        "samples": 96
+        "hours": 9.25,
+        "total": 37.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-15": {
-        "hours": 11.5,
-        "samples": 96
+        "hours": 9.75,
+        "total": 39.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-16": {
-        "hours": 11.5,
-        "samples": 96
+        "hours": 8.5,
+        "total": 34.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-17": {
-        "hours": 12.0,
-        "samples": 96
+        "hours": 9.75,
+        "total": 39.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-18": {
-        "hours": 12.0,
-        "samples": 96
+        "hours": 10.25,
+        "total": 41.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-19": {
-        "hours": 11.5,
-        "samples": 96
+        "hours": 9.25,
+        "total": 37.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-20": {
-        "hours": 12.25,
-        "samples": 96
+        "hours": 7.5,
+        "total": 30.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-21": {
-        "hours": 12.0,
-        "samples": 96
+        "hours": 9.25,
+        "total": 37.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-22": {
-        "hours": 12.25,
-        "samples": 96
+        "hours": 10.25,
+        "total": 41.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-23": {
-        "hours": 11.75,
-        "samples": 96
+        "hours": 10.0,
+        "total": 40.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-24": {
-        "hours": 10.5,
-        "samples": 96
+        "hours": 9.5,
+        "total": 38.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-25": {
-        "hours": 10.75,
-        "samples": 96
+        "hours": 9.25,
+        "total": 37.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-26": {
-        "hours": 10.75,
-        "samples": 96
+        "hours": 9.25,
+        "total": 37.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-27": {
-        "hours": 11.5,
-        "samples": 96
+        "hours": 9.5,
+        "total": 38.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-28": {
-        "hours": 11.0,
-        "samples": 96
+        "hours": 8.75,
+        "total": 35.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-29": {
-        "hours": 11.25,
-        "samples": 96
+        "hours": 10.0,
+        "total": 40.0,
+        "inverters": 4,
+        "samples": 4
       },
       "2026-09-30": {
-        "hours": 11.5,
-        "samples": 96
+        "hours": 10.25,
+        "total": 41.0,
+        "inverters": 4,
+        "samples": 4
       }
     }
   }

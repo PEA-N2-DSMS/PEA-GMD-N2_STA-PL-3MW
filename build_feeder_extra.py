@@ -35,14 +35,13 @@ for r in read('energy-overview.csv'):
  d['self_consumed_solar_kWh']=d['Inverters Produced_kWh']-d['Exported Energy_kWh'];octdaily.append(d)
 october=dict(daily=octdaily,summary=summarize(octdaily),hourly=[],inverters=[],inverterDaily=[],inventory=[i for i in extraInventory if i['start'] and i['start'].startswith('2026-10')],estimated=False)
 hours={}
-for feeder,folder,pattern in [('large','Solar','3MW*.csv'),('small','500kVA','*.csv')]:
- days=defaultdict(lambda:{'hours':0,'samples':0});seen=set()
- for path in (P/'raw'/folder).glob(pattern):
-  for r in csv.DictReader(path.open(encoding='utf-8-sig')):
-   ts=datetime.strptime(r['Measurement Time'],'%b %d, %Y %I:%M %p');assert ts not in seen;seen.add(ts)
-   k=next(k for k in r if k.startswith('Production ('));day=ts.strftime('%Y-%m-%d');days[day]['samples']+=1
-   if float(r[k])>0:days[day]['hours']+=.25
- assert len(seen)==2880;hours[feeder]=dict(sorted(days.items()))
+for feeder,path in [('large',P/'raw/Solar/inverter-production-time SEP2026.csv'),('small',R/'inverter-production-time.csv')]:
+ days={}
+ for r in csv.DictReader(path.open(encoding='utf-8-sig')):
+  values=[float(v) for k,v in r.items() if k.startswith('Inverter Production Time')]
+  assert all(0<=v<=24 for v in values)
+  days[r['DateTime'][:10]]={'hours':sum(values)/len(values),'total':sum(values),'inverters':len(values),'samples':len(values)}
+ assert len(days)==30;hours[feeder]=dict(sorted(days.items()))
 output=dict(small={'2026-09':small,'2026-10':october},hours=hours)
 (P/'data/feeder-extra.json').write_text(json.dumps(output,ensure_ascii=False,indent=2));(P/'feeder-extra.js').write_text('const FEEDER_EXTRA='+json.dumps(output,ensure_ascii=False).replace('</','<\\/')+';\n')
 print('September Feeder 10',small['summary']);print('Inverters',len(sums));print('Hours average',{k:sum(v['hours'] for v in d.values())/len(d) for k,d in hours.items()})
