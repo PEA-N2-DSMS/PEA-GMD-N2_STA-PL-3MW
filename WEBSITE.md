@@ -1,6 +1,6 @@
 # STA PL 3MW dashboard
 
-Live: https://chaleamchonppp-tech.github.io/PEA-GMD-N2_STA-PL-3MW/
+Live: https://PEA-N2-DSMS.github.io/PEA-GMD-N2_STA-PL-3MW/
 
 The modern dashboard uses `dashboard.css` and `dashboard.js` alongside the generated `index.html`. Keep these files, `dashboard-future.css`, `pea-tou-2026.js`, and `assets/fonts` when publishing. Run `python redesign_dashboard.py` to regenerate the page; this preserves the modern presentation. The interface is Thai-only; previous saved English preferences are ignored. Brand names, source filenames and standard measurement units are retained.
 
