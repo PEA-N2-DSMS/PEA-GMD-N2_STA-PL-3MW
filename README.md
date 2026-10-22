@@ -1,6 +1,6 @@
 # STA-PHS SolarEdge — กันยายน 2569
 
-🌐 **[เปิดเว็บ STA-PL 3MW](https://chaleamchonppp-tech.github.io/PEA-GMD-N2_STA-PL-3MW/)**
+🌐 **[เปิดเว็บ STA-PL 3MW](https://PEA-N2-DSMS.github.io/PEA-GMD-N2_STA-PL-3MW/)**
 
 แดชบอร์ดโซลาร์ฟาร์มศรีตรัง · เลือก Feeder 9 (3,000 kVA) หรือ Feeder 10 (500 kVA) แยกกัน
 
@@ -50,7 +50,7 @@ Feeder 9 ใช้ยอดรายงานมิเตอร์เดิม �
 
 คำนวณใหม่: `python analyze.py` (ต้องมี pandas) หลังคำนวณใหม่ให้สร้าง index.html ใหม่ด้วย `python build_dashboard.py` ตามด้วย `python brand_dashboard.py`
 
-Repository: chaleamchonppp-tech/PEA-GMD-N2_STA-PL-3MW (Public ตามคำสั่งผู้ใช้)
+Repository: PEA-N2-DSMS/PEA-GMD-N2_STA-PL-3MW (Public ตามคำสั่งผู้ใช้)
 
 
 ## GitHub Pages
